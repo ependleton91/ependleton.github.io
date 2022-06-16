@@ -1,0 +1,132 @@
+body {
+    font-family: helvetica;
+    color: seashell;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    display: block;
+    height: 69px;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    padding: 20px 0px 20px 10px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: seashell;
+}
+
+.mission-container {
+    background-image: url('Resources/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+.featured-container {
+    background-color: black;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.images-featured {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-wrap: wrap;
+}
+
+.featured-container img {
+    height: 200px;
+    Width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.location-container {    
+    background-image: url('Resources/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.location-container h2 {
+    text-align: center;
+    align-content:flex-start;
+    justify-content: center;
+}
+ 
+.text-over-location {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.downtown-location, 
+.bayside-location,
+.oakdale-location {
+    margin: auto 20px;
+    width: 300px;
+    background-color: black;
+    height: 200px;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+
+.copyright-container {
+    display: table;
+    float: left;
+    margin: 10px 20px 10px 20px;
+
+}
